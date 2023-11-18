@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: greenyellow;
+}
+
+label{
+    font-size: 1.3rem;
+}
+button {
+    padding: 1vw;
+    border: 3px solid black;
+    color: greenyellow;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.2);
+    background-color: rgb(31, 24, 24);
+    margin: 0 0 20px 0;
+}
+
+#validOtp {
+    width: 20%;
+    height: 5%;
+    border-radius: 5px;
+    background-color: rgb(14, 21, 21);
+    border: 4px solid rgb(52, 35, 35);
+    color: greenyellow;
+    padding-left: 15px;
+}
+#validOtp::placeholder {
+    color: greenyellow;
+}
